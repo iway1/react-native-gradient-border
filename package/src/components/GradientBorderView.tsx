@@ -6,17 +6,15 @@ import omit from 'lodash/omit';
 type GradientBorderViewProps = Omit<ViewStyle, 'paddingLeft' | 'paddingRight' | "paddingTop" | 'paddingBottom' | 'padding' | 'borderColor' | 'borderLeftColor' | 'borderRightColor' | 'borderTopColor' | 'borderBottomColor'>;
 
 /**
- * A view that applies a gradient border. `gradientProps` is required and can be used to control the gradient (expo-linear-gradient props),
+ * A view that applies a gradient border. `gradientProps` is required and can be used to control the gradient (react-native-linear-gradient props),
  * and `borderWidth` is required. See 
  * @example
  * <GradientBorderView
- *  borderWidth={80}
+ *  style={{borderWidth: 50, height: 100, width: 100,}}
  *  gradientProps={{
  *    colors: ['red', 'blue']
  *  }}
- * >
- *  <View style={{width: 100, height: 100}}/>
- * </GradientBorderView>
+ * />
  */
 export default function GradientBorderView({
     gradientProps,

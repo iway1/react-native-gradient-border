@@ -1,13 +1,15 @@
 import React, { useMemo } from "react"
 import { StyleSheet, View, ViewStyle } from "react-native"
 import MaskedView from "@react-native-masked-view/masked-view"
-import { LinearGradient, LinearGradientProps } from "expo-linear-gradient"
+import { LinearGradient, LinearGradientProps } from "react-native-linear-gradient"
+
+export type GradientProps = Omit<LinearGradientProps, 'style' | 'pointerEvents'>;
 
 export type RequiredGradientBorderProps = {
     /**
-     * Props to be passed to the gradient component. See `expo-linear-gradient` for full list. Requires "colors" prop.
+     * Props to be passed to the gradient component. See `react-native-linear-gradient` for full list. Requires "colors" prop.
      */
-    gradientProps: Omit<LinearGradientProps, 'style' | 'pointerEvents'>,
+    gradientProps: GradientProps
 
 }
 

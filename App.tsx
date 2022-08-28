@@ -1,5 +1,5 @@
 import MaskedView from "@react-native-masked-view/masked-view";
-import { LinearGradient } from "expo-linear-gradient";
+import { LinearGradient } from "react-native-linear-gradient";
 import { range } from "lodash";
 import React, { useState } from "react";
 import { Image, ImageBackground, ScrollView, StyleSheet, Text, View, ViewProps } from "react-native";

@@ -4,21 +4,17 @@
 - Supports any background (including transparent)
 - Uses same style properties as `<View/>`
     - borderWidth, borderRadius, borderLeftWidth etc.
-- Exposes `expo-linear-gradient` props to allow full customization of gradient
+- Exposes `react-native-linear-gradient` props to allow full customization of gradient
 - Great typesafety to prevent potential usage issues
 
 ## Installation
-This module uses `expo-linear-gradient`, which requires `expo` to be installed. 
+This module uses `react-native-linear-gradient`, which requires `expo` to be installed. 
 
 **If you don't have Expo installed in your project run**
-```sh
-npx install-expo-modules@latest
-```
-
 Install library and required packages:
 
 ```sh
-yarn add @good-react-native/gradient-border @react-native-masked-view/masked-view expo-linear-gradient
+yarn add @good-react-native/gradient-border
 ```
 
 Then install pods (iOS):
