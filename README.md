@@ -11,10 +11,10 @@
 [API Reference](#api-reference)
 
 ## Installation
-Install library
+Install package and peer dependencies:
 
 ```sh
-yarn add @good-react-native/gradient-border
+yarn add @good-react-native/gradient-border @react-native-masked-view/masked-view react-native-linear-gradient
 ```
 
 Then install pods (iOS):

@@ -28,12 +28,12 @@
   "homepage": "https://github.com/iway1/react-native-gradient-border#readme",
   "peerDependencies": {
     "react": "^17.0.0",
-    "react-native": "^0.62.0"
+    "react-native": "^0.62.0",
+    "react-native-linear-gradient": "^2.6.0",
+    "@react-native-masked-view/masked-view": "^0.2.7"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "@react-native-masked-view/masked-view": "^0.2.7",
-    "react-native-linear-gradient": "^2.6.0"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/react-native": "^0.69.5"
