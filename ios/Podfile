@@ -7,7 +7,6 @@ install! 'cocoapods', :deterministic_uuids => false
 production = ENV["PRODUCTION"] == "1"
 
 target 'GradientBorder' do
-
   config = use_native_modules!
 
   # Flags change depending on the env values.

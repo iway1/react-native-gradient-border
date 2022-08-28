@@ -12,10 +12,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3DE1D0FFC2FB5BD4BD114A56 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F2D9A37AA25205A780B1CB /* ExpoModulesProvider.swift */; };
 		7699B88040F8A987B510C191 /* libPods-GradientBorder-GradientBorderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GradientBorder-GradientBorderTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		CC6FBC133CDDBCAC63ED0015 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278855F4CCA990BED8549B3E /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +37,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GradientBorder/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GradientBorder/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GradientBorder-GradientBorderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GradientBorder-GradientBorderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		278855F4CCA990BED8549B3E /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GradientBorder/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-GradientBorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientBorder.debug.xcconfig"; path = "Target Support Files/Pods-GradientBorder/Pods-GradientBorder.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GradientBorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientBorder.release.xcconfig"; path = "Target Support Files/Pods-GradientBorder/Pods-GradientBorder.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-GradientBorder-GradientBorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientBorder-GradientBorderTests.debug.xcconfig"; path = "Target Support Files/Pods-GradientBorder-GradientBorderTests/Pods-GradientBorder-GradientBorderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GradientBorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GradientBorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GradientBorder/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-GradientBorder-GradientBorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientBorder-GradientBorderTests.release.xcconfig"; path = "Target Support Files/Pods-GradientBorder-GradientBorderTests/Pods-GradientBorder-GradientBorderTests.release.xcconfig"; sourceTree = "<group>"; };
-		D9F2D9A37AA25205A780B1CB /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GradientBorder-GradientBorderTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -110,23 +106,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		59E282A35FE0882A84940F55 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				9950841DBD7E6DE3D2376ED6 /* GradientBorder */,
-				660D6D30BEC100CF1BD21F33 /* GradientBorderTests */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		660D6D30BEC100CF1BD21F33 /* GradientBorderTests */ = {
-			isa = PBXGroup;
-			children = (
-				D9F2D9A37AA25205A780B1CB /* ExpoModulesProvider.swift */,
-			);
-			name = GradientBorderTests;
-			sourceTree = "<group>";
-		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +122,6 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				59E282A35FE0882A84940F55 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -157,14 +135,6 @@
 				00E356EE1AD99517003FC87E /* GradientBorderTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9950841DBD7E6DE3D2376ED6 /* GradientBorder */ = {
-			isa = PBXGroup;
-			children = (
-				278855F4CCA990BED8549B3E /* ExpoModulesProvider.swift */,
-			);
-			name = GradientBorder;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -435,7 +405,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* GradientBorderTests.m in Sources */,
-				3DE1D0FFC2FB5BD4BD114A56 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +414,6 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				CC6FBC133CDDBCAC63ED0015 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +449,6 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientBorder.app/GradientBorder";
@@ -506,7 +473,6 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientBorder.app/GradientBorder";
@@ -531,7 +497,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = GradientBorder;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -557,7 +522,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = GradientBorder;
 				SWIFT_VERSION = 5.0;

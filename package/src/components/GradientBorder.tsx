@@ -1,7 +1,7 @@
 import React, { useMemo } from "react"
 import { StyleSheet, View, ViewStyle } from "react-native"
 import MaskedView from "@react-native-masked-view/masked-view"
-import { LinearGradient, LinearGradientProps } from "react-native-linear-gradient"
+import LinearGradient, { LinearGradientProps } from "react-native-linear-gradient"
 
 export type GradientProps = Omit<LinearGradientProps, 'style' | 'pointerEvents'>;
 

@@ -172,7 +172,7 @@ const App = () => {
         </Text>
       </GradientBorderView> */}
 
-      {/* <GradientBorderView
+      <GradientBorderView
         gradientProps={{
           colors: ['red', 'orange']
         }}
@@ -182,8 +182,8 @@ const App = () => {
           height: 50,
           width: 50,
         }}
-      /> */}
-      <View
+      />
+      {/* <View
         style={{
           borderWidth: 5,
           borderRadius: 5,
@@ -191,7 +191,7 @@ const App = () => {
           width: 50,
           borderColor: 'black',
         }}
-      />
+      /> */}
     </View>
   )
 };
