@@ -24,7 +24,7 @@ cd ios && pod install
 ```
 
 ## Usage
-`<GradientBorderView>` works just like a regular view, except it has an additional required prop called `gradientProps`, which are the props that will get passed the `<LinearGradient/>`:
+`<GradientBorderView>` works just like a regular view, except it has an additional required prop called `gradientProps`, which are the props that will get passed to the `<LinearGradient/>`:
 ```jsx
 <GradientBorderView
     gradientProps={{
