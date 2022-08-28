@@ -3,6 +3,7 @@ import { StyleProp, StyleSheet, View, ViewProps, ViewStyle } from "react-native"
 import GradientBorder, { RequiredGradientBorderProps } from "./GradientBorder";
 import omit from 'lodash/omit';
 
+type GradientBorderViewProps = Omit<ViewStyle, 'paddingLeft' | 'paddingRight' | "paddingTop" | 'paddingBottom' | 'padding' | 'borderColor' | 'borderLeftColor' | 'borderRightColor' | 'borderTopColor' | 'borderBottomColor'>;
 
 /**
  * A view that applies a gradient border. `gradientProps` is required and can be used to control the gradient (expo-linear-gradient props),
@@ -23,7 +24,7 @@ export default function GradientBorderView({
 }: Omit<ViewProps, 'style'> &
     {
         style?: StyleProp<
-            Omit<ViewStyle, 'paddingLeft' | 'paddingRight' | "paddingTop" | 'paddingBottom' | 'padding'> & 
+            GradientBorderViewProps & 
             {paddingLeft?: number, paddingRight?: number, paddingTop?: number, paddingBottom?: number, padding?: number}
         >
     } &
@@ -55,7 +56,7 @@ export default function GradientBorderView({
             {props.children}
             <GradientBorder
                 gradientProps={gradientProps}
-                borderRadius={props.style && 'borderRadius' in props.style ? props.style.borderRadius : undefined}
+                borderRadius={styles.borderRadius}
                 borderWidth={styles.borderWidth}
                 borderBottomWidth={styles.borderBottomWidth}
                 borderRightWidth={styles.borderRightWidth}
@@ -65,7 +66,6 @@ export default function GradientBorderView({
                 borderTopRightRadius={styles.borderTopRightRadius}
                 borderBottomRightRadius={styles.borderBottomRightRadius}
                 borderBottomLeftRadius={styles.borderBottomLeftRadius}
-                
             />
         </View>
     )

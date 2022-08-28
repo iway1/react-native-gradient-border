@@ -3,7 +3,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { range } from "lodash";
 import React, { useState } from "react";
 import { Image, ImageBackground, ScrollView, StyleSheet, Text, View, ViewProps } from "react-native";
-import { GradientBorder, GradientBorderView } from "./package/index";
+import { GradientBorderView } from "./package/index";
 
 function Giraffe() {
   return (
@@ -59,25 +59,6 @@ export function FadeOutTopView({ fadeHeight = 100, ...props }: ViewProps & { fad
   )
 }
 
-function Overlaid() {
-  return (
-    <View
-      style={{
-        width: 200,
-        height: 200,
-        padding: 20,
-      }}
-    >
-      <GradientBorder
-        gradientProps={{
-          colors: ['red', 'blue']
-        }}
-        borderWidth={20}
-      />
-    </View>
-  )
-}
-
 function FadeOut() {
   return (
     <View>
@@ -102,7 +83,7 @@ function FadeOut() {
                 borderRadius: 10,
                 borderWidth: 5,
                 backgroundColor: 'rgba(255, 255, 255, 0.6)',
-                marginBottom :20,
+                marginBottom: 20,
               }}
               gradientProps={{
                 colors: ['red', 'orange']
@@ -122,6 +103,7 @@ function FadeOut() {
 
         </ScrollView>
       </FadeOutTopView>
+
     </View>
   )
 }
@@ -132,12 +114,12 @@ const App = () => {
     <View
       style={{
         flex: 1,
-        backgroundColor: 'rgba(0, 50, 50, 0.2)',
+        backgroundColor: 'white',
         justifyContent: 'center',
         alignItems: 'center',
       }}
     >
-      <View
+      {/* <View
         style={StyleSheet.absoluteFill}
       >
         <ImageBackground
@@ -148,19 +130,19 @@ const App = () => {
         <View
           style={[StyleSheet.absoluteFill, { backgroundColor: 'rgba(0,0,0,0.3)' }]}
         />
-      </View>
+      </View> */}
       {/* <FadeOut /> */}
-      <GradientBorderView
+      {/* <GradientBorderView
         style={{
           borderWidth: 10,
           width: 100,
           height: 100,
-          borderTopRightRadius:100
+          borderTopRightRadius: 100
         }}
         gradientProps={{
           colors: ['red', 'orange']
         }}
-      />
+      /> */}
       {/* <GradientBorderView
         style={{
           justifyContent: 'center',
@@ -189,6 +171,27 @@ const App = () => {
           Cool!
         </Text>
       </GradientBorderView> */}
+
+      {/* <GradientBorderView
+        gradientProps={{
+          colors: ['red', 'orange']
+        }}
+        style={{
+          borderWidth: 5,
+          borderRadius: 5,
+          height: 50,
+          width: 50,
+        }}
+      /> */}
+      <View
+        style={{
+          borderWidth: 5,
+          borderRadius: 5,
+          height: 50,
+          width: 50,
+          borderColor: 'black',
+        }}
+      />
     </View>
   )
 };

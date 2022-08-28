@@ -110,7 +110,7 @@ export default function GradientBorder({
                     collapsable={false}
                 />
             )}
-            style={[StyleSheet.absoluteFill, { elevation: 1 }]}
+            style={[StyleSheet.absoluteFill]}
             pointerEvents='none'
         >
             <LinearGradient
