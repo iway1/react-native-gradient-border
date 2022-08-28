@@ -8,7 +8,7 @@
 - Exposes `expo-linear-gradient` props to allow full customization of gradient
 - Great typesafety to prevent potential usage issues
 
-[API Reference](api-reference)
+[API Reference](#api-reference)
 
 ## Installation
 This module uses `expo-linear-gradient`, which requires `expo` to be installed. 
