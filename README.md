@@ -8,7 +8,7 @@
 - Exposes `expo-linear-gradient` props to allow full customization of gradient
 - Great typesafety to prevent potential usage issues
 
-
+[API Reference](api-reference)
 
 ## Installation
 This module uses `expo-linear-gradient`, which requires `expo` to be installed. 
@@ -56,7 +56,7 @@ If you don't pass a border width there will be no gradient border shown.
 
 ### Differences with `<View/>`
 #### Absolute positioning
-One difference between the `<GradientBorderView/>` and a regular `<View/>` border is that when applying a border to a regular view, any absolute positioned child components will take into account the border width. It doesn't seem like there's any way to mimic this behavior in our `<GradientBorderView/>`, if it's bothering you you'll have to deal with it. For example one solution is to wrap the inner view with an extra `<View/>`:
+One difference between the `<GradientBorderView/>` and a regular `<View/>` border is that when applying a border to a regular view, any absolute positioned child components will take into account the border width. It doesn't seem like there's any way to mimic this behavior in our `<GradientBorderView/>`. One solution is to wrap the inner view with an extra `<View/>`:
 
 ```jsx
 <GradientBorderView
