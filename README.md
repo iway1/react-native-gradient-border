@@ -1,6 +1,7 @@
 # 🤯 Actual Gradient Borders in React Native 🤯
 ## Features
 - Easily create views with gradient borders
+- Supports any background (including transparent)
 - Uses same style properties as `<View/>`
     - borderWidth, borderRadius, borderLeftWidth etc.
 - Exposes `expo-linear-gradient` props to allow full customization of gradient
