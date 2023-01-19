@@ -2,8 +2,9 @@
   "name": "@good-react-native/gradient-border",
   "version": "1.0.0",
   "description": "A universal gradient border solution for React Native",
-  "main": "index.ts", 
+  "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "p": "npm version patch --force && npm publish --access public"
   },
@@ -36,6 +37,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@types/react-native": "^0.69.5"
+    "@types/react-native": "^0.69.5",
+    "@types/loadash": "^4.14.191"
   }
 }
