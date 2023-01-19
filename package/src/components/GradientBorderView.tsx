@@ -38,12 +38,12 @@ export type GradientBorderViewStyle = StyleProp<
  *  }}
  * />
  */
-export default function GradientBorderView({
+export const GradientBorderView = ({
   gradientProps,
   ...props
 }: Omit<ViewProps, 'style'> & {
   style?: GradientBorderViewStyle;
-} & RequiredGradientBorderProps) {
+} & RequiredGradientBorderProps) => {
   const styles = StyleSheet.flatten(props.style);
   const userAllPadding = styles.padding ? styles.padding : 0;
   const compensationAllPadding = styles.borderWidth ? styles.borderWidth : 0;
