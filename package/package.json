@@ -36,6 +36,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@types/react-native": "^0.69.5"
+    "@types/react-native": "^0.69.5",
+    "@types/lodash": "^4.14.191"
   }
 }
