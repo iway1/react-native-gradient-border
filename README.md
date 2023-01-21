@@ -10,6 +10,9 @@
 
 [API Reference](#api-reference)
 
+## Not Maintained
+This library is not being actively maintained.
+
 ## Installation
 Install package and peer dependencies:
 
