@@ -1,5 +1,8 @@
-import GradientBorderView from "./src/components/GradientBorderView";
-import { GradientProps as GP } from "./src/components/GradientBorder";
+import {
+  GradientBorderView,
+  GradientBorderViewStyle,
+} from './src/components/GradientBorderView';
+import {GradientProps} from './src/components/GradientBorder';
 
 export {GradientBorderView};
-export type GradientProps = GP;
+export type {GradientBorderViewStyle, GradientProps as GP};
